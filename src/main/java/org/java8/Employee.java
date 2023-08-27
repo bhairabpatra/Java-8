@@ -1,6 +1,6 @@
 package org.java8;
 
-public class Employee {
+public class Employee implements MyInterface {
 
     public int arr[] =  {2, 4, 5, 7};
     private String name;
@@ -50,5 +50,10 @@ public class Employee {
             System.out.println(i);
         }
 
+    }
+
+    @Override
+    public void showInterface() {
+        System.out.println(" i am functinal interface");
     }
 }

@@ -7,9 +7,6 @@ public class Main {
         emp.setName("bhairabpatra");
         emp.setSal(12000);
         emp.show();
+        emp.showInterface(); // Functional
     }
-
-
-
-
 }
